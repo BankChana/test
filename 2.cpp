@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 int main(){
-    double sum=0, y, x ;
+    double sum=0, x ;
     cout << "Enter x :";
     cin >> x;
     while (x!=0)

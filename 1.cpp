@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-int main(){
+ main(){
     double G;
     string N;
     cout << "What is your name? : ";
