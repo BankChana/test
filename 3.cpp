@@ -1,22 +1,26 @@
 #include <iostream>
+#include <string>
 #include<cmath>
 using namespace std;
+
 double sumSqrt(double x){
     double i=1;
     double c, sum=0;
-    if(x>0){
-    while(i>0){
-        if(i>x){return sum;
-    }
-    else{
-        c=1/pow(i,0.5);
-        sum=sum+c;
-        i++;
-    }}}
-    else
+    while (i<=x)
     {
-        return 0;
+        if (x>0)
+        {
+            c = 1/(sqrt(i));
+            i++;
+            sum = sum+c;
+        }
+        else
+        {
+            return 0;
+        }
+        
     }
+    return sum;
 }
 
 int main()
